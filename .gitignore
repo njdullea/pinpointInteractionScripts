@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+node_modules/
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# Reproducibles
+dist/*

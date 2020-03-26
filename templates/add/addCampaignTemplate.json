@@ -1,0 +1,23 @@
+{
+  "ApplicationId": "",
+  "WriteCampaignRequest": {
+    "MessageConfiguration": {
+      "DefaultMessage": {
+        "Title": "Title.",
+        "Body": "Body",
+        "Action": "OPEN_APP",
+        "TimeToLive": 30
+      }
+    },
+    "Schedule": {
+      "StartTime": "",
+      "EndTime": "2030-03-25T00:01:00",
+      "Frequency": "DAILY",
+      "IsLocalTime": true,
+      "Timezone": "UTC-06"
+    },
+    "SegmentId": "",
+    "SegmentVersion": 1,
+    "Name": ""
+  }
+}

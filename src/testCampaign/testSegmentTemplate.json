@@ -1,0 +1,22 @@
+{
+  "ApplicationId": "0958ea3dddb1436aa2de6b39f79f3de4",
+  "WriteSegmentRequest": {
+    "Name": "Test Segment 00:00",
+    "Dimensions": {
+    	"Demographic": {
+        "Channel": {
+          "DimensionType": "INCLUSIVE",
+          "Values": ["APNs", "APNs sandbox", "ADM", "Baidu", "GCM"]
+        }
+      },
+      "Attributes": {
+        "Times": {
+          "Values": [
+            "00:00"
+          ],
+          "AttributeType": "INCLUSIVE"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ApplicationId": "",
+  "WriteSegmentRequest": {
+    "Name": "Segment Template",
+    "Dimensions": {
+    	"Demographic": {
+        "Channel": {
+          "DimensionType": "INCLUSIVE",
+          "Values": ["APNs", "APNs sandbox", "ADM", "Baidu", "GCM"]
+        }
+      },
+      "Attributes": {
+        "Times": {
+          "Values": [
+            "00:00"
+          ],
+          "AttributeType": "INCLUSIVE"
+        }
+      }
+    }
+  }
+}

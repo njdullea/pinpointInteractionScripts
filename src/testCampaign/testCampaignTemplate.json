@@ -1,0 +1,21 @@
+{
+  "ApplicationId": "0958ea3dddb1436aa2de6b39f79f3de4",
+  "WriteCampaignRequest": {
+    "MessageConfiguration": {
+      "DefaultMessage": {
+        "Title": "Patch Medication Reminder.",
+        "Body": "This is a reminder to take your medication.",
+        "Action": "OPEN_APP",
+        "TimeToLive": 30
+      }
+    },
+    "Schedule": {
+      "StartTime": "",
+      "EndTime": "2030-03-25T00:01:00",
+      "Frequency": "DAILY"
+    },
+    "SegmentId": "",
+    "SegmentVersion": 1,
+    "Name": "Test Campaign 00:00"
+  }
+}
