@@ -11,5 +11,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir dist/ --copy-files",
+    "addNotifs": "yarn run build && node ./dist/add/addNotifs",
+    "addTestNotif": "yarn run build && node ./dist/testCampaign/addTestNotif",
+    "removeNotifs": "yarn run build && node ./dist/remove/removeNotifs",
+    "getCamps": "yarn run build && node ./dist/run/runGetCampaigns"
   }
 }
