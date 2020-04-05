@@ -6,7 +6,12 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.646.0",
-    "moment": "^2.24.0"
+    "countries-and-timezones": "^2.1.1",
+    "date-fns": "^2.11.1",
+    "date-fns-timezone": "^0.1.4",
+    "date-fns-tz": "^1.0.10",
+    "moment": "^2.24.0",
+    "moment-round": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -17,6 +22,8 @@
     "addNotifs": "yarn run build && node ./dist/add/addNotifs",
     "addTestNotif": "yarn run build && node ./dist/testCampaign/addTestNotif",
     "removeNotifs": "yarn run build && node ./dist/remove/removeNotifs",
-    "getCamps": "yarn run build && node ./dist/run/runGetCampaigns"
+    "getCamps": "yarn run build && node ./dist/run/runGetCampaigns",
+    "roundMom": "yarn run build && node ./dist/run/roundMom",
+    "getTzOffset": "yarn run build && node ./dist/run/getTzOffset"
   }
 }
