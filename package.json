@@ -24,6 +24,7 @@
     "removeNotifs": "yarn run build && node ./dist/remove/removeNotifs",
     "getCamps": "yarn run build && node ./dist/run/runGetCampaigns",
     "roundMom": "yarn run build && node ./dist/run/roundMom",
-    "getTzOffset": "yarn run build && node ./dist/run/getTzOffset"
+    "getTzOffset": "yarn run build && node ./dist/run/getTzOffset",
+    "adj": "yarn run build && node ./dist/run/adjustTimeDates"
   }
 }
