@@ -25,6 +25,7 @@
     "getCamps": "yarn run build && node ./dist/run/runGetCampaigns",
     "roundMom": "yarn run build && node ./dist/run/roundMom",
     "getTzOffset": "yarn run build && node ./dist/run/getTzOffset",
-    "adj": "yarn run build && node ./dist/run/adjustTimeDates"
+    "adj": "yarn run build && node ./dist/run/adjustTimeDates",
+    "testNotif": "yarn run build && node ./dist/run/testNotif"
   }
 }
