@@ -10,7 +10,7 @@
     "date-fns": "^2.11.1",
     "date-fns-timezone": "^0.1.4",
     "date-fns-tz": "^1.0.10",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-round": "^1.0.1"
   },
   "devDependencies": {
